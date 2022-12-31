@@ -1,0 +1,32 @@
+#clk : in std_logic;
+#nreset : in std_logic;
+#anod : out std_logic_vector(3 downto 0);
+#seg_7 : out std_logic_vector (6 downto 0)
+
+
+NET "clk" LOC = P55;
+NET "nreset" LOC = P67;
+
+
+
+
+# PlanAhead Generated physical constraints 
+
+NET "anod[3]" LOC = P12;
+NET "anod[2]" LOC = P11;
+NET "anod[1]" LOC = P10;
+NET "anod[0]" LOC = P9;
+NET "idle[3]" LOC = P101;
+NET "idle[2]" LOC = P102;
+NET "idle[1]" LOC = P99;
+NET "idle[0]" LOC = P100;
+
+NET "idle[4]" LOC = P120;
+
+NET "seg_7[6]" LOC = P115;
+NET "seg_7[5]" LOC = P117;
+NET "seg_7[4]" LOC = P121;
+NET "seg_7[3]" LOC = P124;
+NET "seg_7[2]" LOC = P118;
+NET "seg_7[1]" LOC = P116;
+NET "seg_7[0]" LOC = P119;
